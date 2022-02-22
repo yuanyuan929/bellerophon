@@ -6,7 +6,7 @@
 
 This tool was made for analysing MHC typing and other low-complexity gene amplicon data (as opposed to high-complexity data such as whole-microbiome 16S rRNA amplicons) generated on PacBio system. It performs allele calling while detecting polymorphic sites within the sequences and removing potential chimeric sequence variants.
 
-The data processing method shown in the flowchart below was developed for high-resolution allele calling, taking into account that technical errors and artefacts such as PCR heteroduplexes and chimeras can be severe in mixed-template or multi-target amplifications (common in MHC typing). Briefly, circular consensus sequence (CCS) reads are generated, demultiplexed, trimmed, filtered, and aligned using tools available from PacBio software suite SMRTLink. With processed reads aligned to a reference sequence, bellerophon first generates a multiple sequence alignment with the reads, then identifies real polymorphic sites within the sequences, and then calls real alleles and putative chimeric sequences based on read support. Further details are available from [*(placeholder: link to paper)*](http://). 
+The data processing method shown in the flowchart below was developed for high-resolution allele calling, taking into account that technical errors and artefacts such as PCR heteroduplexes and chimeras can be severe in mixed-template or multi-target amplifications (common in MHC typing). Briefly, circular consensus sequence (CCS) reads are generated, demultiplexed, trimmed, filtered, and aligned using tools available from PacBio software suite SMRTLink. With processed reads aligned to a reference sequence, bellerophon first generates a multiple sequence alignment with the reads, then identifies real polymorphic sites within the sequences, and then calls real alleles and putative chimeric sequences based on read support. Further details are available from [*DOI: 10.1111/1755-0998.13511*](https://doi.org/10.1111/1755-0998.13511). 
 
 ![flowchart](img/flowchart.png)
 
@@ -107,5 +107,5 @@ optional arguments:
 
 ### Citation
 
-Please cite: [*(placeholder: link to paper)*](http://)
+Please cite: [*DOI: 10.1111/1755-0998.13511*](https://doi.org/10.1111/1755-0998.13511)
 
